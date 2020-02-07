@@ -1,5 +1,11 @@
 #container {
-    width: 500px;
-    height: 500px;
+    width: 480px;
+    height: 480px;
     border: 1px solid black;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
 }
