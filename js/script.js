@@ -11,9 +11,11 @@ function createGrid(n) {
         square.classList.add("square");
 
         // modify square size
-        let squareWidth = 460 / n;
+        let squareWidth = 480 / n;
         square.style.width = squareWidth + "px";
         square.style.height = squareWidth + "px";
+
+        console.log(square.style.width);
 
         square.addEventListener("mouseover", (e) => {
             square.style.backgroundColor = "black";
