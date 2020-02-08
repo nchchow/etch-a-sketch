@@ -9,9 +9,4 @@
 .square {
     width: 30px;
     height: 30px;
-    background-color: aquamarine;
-}
-
-.square:hover {
-    background-color: cadetblue;
 }
